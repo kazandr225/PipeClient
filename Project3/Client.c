@@ -8,7 +8,7 @@ int main()
 	system("chcp 1251>nul");
 	LPSTR lpszPipeName = L"\\\\.\\pipe\\MyPipe";//имя канала (такое жеб как и на сервере)
 	
-	BOOL flag_otvet;
+	BOOL flag_otvet = TRUE;
 	char message[SIZE_BUFFER];
 	DWORD size_buffer = SIZE_BUFFER; //размер буффера для записи
 	DWORD actual_written; //сколько на самом деле было записано байт
