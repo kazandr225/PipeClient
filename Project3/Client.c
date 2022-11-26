@@ -6,7 +6,7 @@
 int main()
 {
 	system("chcp 1251>nul");
-	LPSTR lpszPipeName = L"\\\\.\\pipe\\MyPipe";//имя канала (такое жеб как и на сервере)
+	LPSTR lpszPipeName = L"\\\\.\\pipe\\MyPipe";//имя канала (такое же как и на сервере)
 	
 	BOOL flag_otvet = TRUE;
 	char message[SIZE_BUFFER];
